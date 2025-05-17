@@ -1,5 +1,6 @@
 # This is the official code for DualCast
-we intergate the DualCast model framework into three baseline models, so there are three folders, each folder corresponding to a model with DualCast framework.
+Our paper has been accpted by IJCAI2025!
+In this paper, we intergate the DualCast model framework into three baseline models, so there are three folders, each folder corresponding to a model with DualCast framework.
 
 # Dataset
 The link is: https://drive.google.com/drive/folders/1ACUoAE6h-RKoTq9C5XrTJDHQd6k6znpg?usp=sharing
@@ -38,3 +39,11 @@ If the GPU do not have enough space, please reduce the batch_size in .sh file
 # Running code
 chmod +x ./main_08.sh
 ./main_08.sh
+
+# Citation
+@inproceedings{ijcai25,
+  author = {Su, Xinyu and Liu, Feng and Chang, Yanchuan and Tanin, Egemen and Sarvi, Majid and Qi, Jianzhong},
+  title = {DualCast: Disentangling Aperiodic Events from Traffic Series with a Dual-Branch Model},
+  booktitle = {33rd International Joint Conference on Artificial Intelligence},
+  year = {2025}
+}
